@@ -42,7 +42,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CX5hlRAACZ7Nk47IRrDMBdAvU5e4m2aIhr1KYEgACAwwAAv5IIFd_SHjDg6Zx9B4E")
+            await message.reply_sticker("https://te.legra.ph/file/20de690c6d33cee7204b0.png")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -87,7 +87,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/AlonesHeaven) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/THE_DRAMA_CLUB_01) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -171,7 +171,7 @@ async def start_comm(client, message: Message, _):
 ● 📡 **𝐋ιик ➪ [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})**☆.♡
 •✰˚♫. * ● ¸ . ★ .¸¸♡¸¸★ :●. *°☆ ¸. ● .. ✷
 
-☆............𝙱𝚈 » [𝙰𝙻𝙾𝙽𝙴](https://t.me/ALONE_WAS_BOT)............☆"""
+☆............𝙱𝚈 » [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)............☆"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -179,7 +179,7 @@ async def start_comm(client, message: Message, _):
                             text="🥀𝐘συтυвє🥀", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🏓𝐒υρρσят🏓", url="https://t.me/AlonesHeaven"
+                            text="🏓𝐒υρρσят🏓", url="https://t.me/THE_DRAMA_CLUB_01"
                         ),
                     ],
                 ]
@@ -210,7 +210,7 @@ async def start_comm(client, message: Message, _):
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         try:
-            await message.reply_sticker("CAACAgUAAx0CX5hlRAACZ7Nk47IRrDMBdAvU5e4m2aIhr1KYEgACAwwAAv5IIFd_SHjDg6Zx9B4E")
+            await message.reply_sticker("https://telegra.ph/file/9d95e3a605775f029528d.png")
             await message.reply_photo(
                 photo=image,
                 caption=_["start_2"].format(
