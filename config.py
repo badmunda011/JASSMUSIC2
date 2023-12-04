@@ -68,7 +68,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamAloneOp/AloneX")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ll_BAD_MUNDA_01_ll")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -114,16 +114,16 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b15c198fb79ce6e71c5b0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/bf3d82f9d1c9b840d6602.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/eee5e3d03dbfcf6514595.jpg",
+    "https://telegra.ph/file/bf3d82f9d1c9b840d6602.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg",
+    "https://telegra.ph/file/bf3d82f9d1c9b840d6602.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -138,12 +138,12 @@ STATS_IMG_URL = getenv(
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://telegra.ph/file/bf3d82f9d1c9b840d6602.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://telegra.ph/file/bf3d82f9d1c9b840d6602.jpg",
 )
 
 STREAM_IMG_URL = getenv(
